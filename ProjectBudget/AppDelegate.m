@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Lock/Lock.h>
 
 @interface AppDelegate ()
 
@@ -16,9 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    A0Lock *lock = [[AppDelegate sharedInstance] lock];
+    [lock applicationLaunchedWithOptions:launchOptions];
     return YES;
 }
+    
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+        A0Lock *lock = [[AppDelegate sharedInstance] lock];
+        return [lock handleURL:url sourceApplication:sourceApplication];
+    }
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -94,5 +101,23 @@
         abort();
     }
 }
+    
+    + (AppDelegate*)sharedInstance {
+        static AppDelegate *sharedApplication = nil;
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            sharedApplication = [[self alloc] init];
+        });
+        return sharedApplication;
+    }
+    
+- (id)init {
+    self = [super init];
+    if (self) {
+        _lock = [A0Lock newLock];
+    }
+    return self;
+}
+
 
 @end

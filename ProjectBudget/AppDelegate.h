@@ -9,11 +9,17 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+
+@class A0Lock;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
+    
+@property (readonly, nonatomic) A0Lock *lock;
++ (AppDelegate *)sharedInstance;
 
 - (void)saveContext;
 

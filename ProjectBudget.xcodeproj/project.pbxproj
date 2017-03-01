@@ -7,27 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6929CCCF1E5891FB0073ED11 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929CCCE1E5891FB0073ED11 /* ProfileViewController.m */; };
 		69C89FB71E53009800317983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C89FB61E53009800317983 /* main.m */; };
 		69C89FBA1E53009800317983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C89FB91E53009800317983 /* AppDelegate.m */; };
-		69C89FBD1E53009800317983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C89FBC1E53009800317983 /* ViewController.m */; };
 		69C89FC01E53009800317983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C89FBE1E53009800317983 /* Main.storyboard */; };
 		69C89FC31E53009800317983 /* ProjectBudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69C89FC11E53009800317983 /* ProjectBudget.xcdatamodeld */; };
 		69C89FC51E53009800317983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C89FC41E53009800317983 /* Assets.xcassets */; };
 		69C89FC81E53009800317983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C89FC61E53009800317983 /* LaunchScreen.storyboard */; };
+		69C89FD81E5355E700317983 /* startViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C89FD71E5355E700317983 /* startViewController.m */; };
+		8893798FB718F0E62D4EAF97 /* libPods-ProjectBudget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC12860A981645F7EDFACEA /* libPods-ProjectBudget.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA8FFB9A39125F3D121B40C /* Pods-ProjectBudget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBudget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBudget/Pods-ProjectBudget.debug.xcconfig"; sourceTree = "<group>"; };
+		664AAE7C023BB5FEE29FAFCD /* Pods-ProjectBudget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBudget.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBudget/Pods-ProjectBudget.release.xcconfig"; sourceTree = "<group>"; };
+		6929CCCD1E5891FB0073ED11 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = UserProfile/ProfileViewController.h; sourceTree = "<group>"; };
+		6929CCCE1E5891FB0073ED11 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = UserProfile/ProfileViewController.m; sourceTree = "<group>"; };
 		69C89FB21E53009800317983 /* ProjectBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C89FB61E53009800317983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69C89FB81E53009800317983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69C89FB91E53009800317983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69C89FBB1E53009800317983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69C89FBC1E53009800317983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		69C89FBF1E53009800317983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69C89FC21E53009800317983 /* ProjectBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectBudget.xcdatamodel; sourceTree = "<group>"; };
 		69C89FC41E53009800317983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69C89FC71E53009800317983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69C89FC91E53009800317983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C89FD61E5355E700317983 /* startViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = startViewController.h; path = Autorization/startViewController.h; sourceTree = "<group>"; };
+		69C89FD71E5355E700317983 /* startViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = startViewController.m; path = Autorization/startViewController.m; sourceTree = "<group>"; };
+		FCC12860A981645F7EDFACEA /* libPods-ProjectBudget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectBudget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8893798FB718F0E62D4EAF97 /* libPods-ProjectBudget.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +54,8 @@
 			children = (
 				69C89FB41E53009800317983 /* ProjectBudget */,
 				69C89FB31E53009800317983 /* Products */,
+				AFB37DA90A21599AE93F9C49 /* Pods */,
+				C348BF4383C1480F1B8BB6AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +70,11 @@
 		69C89FB41E53009800317983 /* ProjectBudget */ = {
 			isa = PBXGroup;
 			children = (
-				69C89FB81E53009800317983 /* AppDelegate.h */,
-				69C89FB91E53009800317983 /* AppDelegate.m */,
-				69C89FBB1E53009800317983 /* ViewController.h */,
-				69C89FBC1E53009800317983 /* ViewController.m */,
+				69C89FD51E53550400317983 /* AnalyticModel */,
+				69C89FD41E5354F500317983 /* Settings */,
+				69C89FD31E5354C000317983 /* UserProfile */,
+				69C89FD21E53544400317983 /* ProjectModel */,
+				69C89FD11E5353DE00317983 /* Autorization */,
 				69C89FBE1E53009800317983 /* Main.storyboard */,
 				69C89FC41E53009800317983 /* Assets.xcassets */,
 				69C89FC61E53009800317983 /* LaunchScreen.storyboard */,
@@ -82,6 +93,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69C89FD11E5353DE00317983 /* Autorization */ = {
+			isa = PBXGroup;
+			children = (
+				69C89FB81E53009800317983 /* AppDelegate.h */,
+				69C89FB91E53009800317983 /* AppDelegate.m */,
+				69C89FD61E5355E700317983 /* startViewController.h */,
+				69C89FD71E5355E700317983 /* startViewController.m */,
+			);
+			name = Autorization;
+			sourceTree = "<group>";
+		};
+		69C89FD21E53544400317983 /* ProjectModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProjectModel;
+			sourceTree = "<group>";
+		};
+		69C89FD31E5354C000317983 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				6929CCCD1E5891FB0073ED11 /* ProfileViewController.h */,
+				6929CCCE1E5891FB0073ED11 /* ProfileViewController.m */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		69C89FD41E5354F500317983 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		69C89FD51E53550400317983 /* AnalyticModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AnalyticModel;
+			sourceTree = "<group>";
+		};
+		AFB37DA90A21599AE93F9C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA8FFB9A39125F3D121B40C /* Pods-ProjectBudget.debug.xcconfig */,
+				664AAE7C023BB5FEE29FAFCD /* Pods-ProjectBudget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C348BF4383C1480F1B8BB6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC12860A981645F7EDFACEA /* libPods-ProjectBudget.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69C89FCC1E53009800317983 /* Build configuration list for PBXNativeTarget "ProjectBudget" */;
 			buildPhases = (
+				BC0363A8ED299ECAC18816AE /* [CP] Check Pods Manifest.lock */,
 				69C89FAE1E53009800317983 /* Sources */,
 				69C89FAF1E53009800317983 /* Frameworks */,
 				69C89FB01E53009800317983 /* Resources */,
+				C71198E3A089730AFE946148 /* [CP] Embed Pods Frameworks */,
+				6C5A842AF2BDE7AD9DA096B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -113,6 +185,7 @@
 				TargetAttributes = {
 					69C89FB11E53009800317983 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X3KDNELQ3Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,15 +221,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C5A842AF2BDE7AD9DA096B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectBudget/Pods-ProjectBudget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0363A8ED299ECAC18816AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C71198E3A089730AFE946148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectBudget/Pods-ProjectBudget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69C89FAE1E53009800317983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				69C89FC31E53009800317983 /* ProjectBudget.xcdatamodeld in Sources */,
-				69C89FBD1E53009800317983 /* ViewController.m in Sources */,
+				69C89FD81E5355E700317983 /* startViewController.m in Sources */,
 				69C89FBA1E53009800317983 /* AppDelegate.m in Sources */,
 				69C89FB71E53009800317983 /* main.m in Sources */,
+				6929CCCF1E5891FB0073ED11 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +396,10 @@
 		};
 		69C89FCD1E53009800317983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA8FFB9A39125F3D121B40C /* Pods-ProjectBudget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3KDNELQ3Z;
 				INFOPLIST_FILE = ProjectBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roman-Baglay.ProjectBudget";
@@ -285,8 +409,10 @@
 		};
 		69C89FCE1E53009800317983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664AAE7C023BB5FEE29FAFCD /* Pods-ProjectBudget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3KDNELQ3Z;
 				INFOPLIST_FILE = ProjectBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roman-Baglay.ProjectBudget";
@@ -313,6 +439,7 @@
 				69C89FCE1E53009800317983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
