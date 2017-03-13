@@ -9,6 +9,21 @@
 #import "AppDelegate.h"
 #import <Lock/Lock.h>
 
+NSPersistentContainer *persistentContainer() {
+    
+    return [(AppDelegate *)[UIApplication sharedApplication].delegate persistentContainer];
+}
+
+NSManagedObjectContext *managedObjectContext() {
+    return persistentContainer().viewContext;
+}
+
+void saveContext() {
+    [(AppDelegate *)[UIApplication sharedApplication].delegate saveContext];
+}
+
+
+
 @interface AppDelegate ()
 
 @end
