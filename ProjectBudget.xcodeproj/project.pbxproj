@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		691E30C91E6F4995006CC2E7 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E30C81E6F4995006CC2E7 /* ProjectViewController.m */; };
 		691E30CC1E6F49C7006CC2E7 /* ProjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E30CB1E6F49C7006CC2E7 /* ProjectCell.m */; };
+		691E89011E7837C40028AF69 /* KeyBoardToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 691E88FE1E7837C40028AF69 /* KeyBoardToolBar.xib */; };
+		691E89021E7837C40028AF69 /* KeyBoardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 691E88FF1E7837C40028AF69 /* KeyBoardToolBar.m */; };
 		69213ABB1E73449700FE61B0 /* row-reorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 69213ABA1E73449700FE61B0 /* row-reorder.png */; };
 		6929CCCF1E5891FB0073ED11 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929CCCE1E5891FB0073ED11 /* ProfileViewController.m */; };
 		69573A171E6D6FDF00235637 /* ProjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 69573A161E6D6FDF00235637 /* ProjectInfo.m */; };
@@ -30,6 +32,9 @@
 		691E30C81E6F4995006CC2E7 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectViewController.m; path = ProjectModel/ProjectViewController.m; sourceTree = "<group>"; };
 		691E30CA1E6F49C7006CC2E7 /* ProjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectCell.h; path = ProjectModel/ProjectCell.h; sourceTree = "<group>"; };
 		691E30CB1E6F49C7006CC2E7 /* ProjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectCell.m; path = ProjectModel/ProjectCell.m; sourceTree = "<group>"; };
+		691E88FE1E7837C40028AF69 /* KeyBoardToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyBoardToolBar.xib; path = KeyBoardToolBar/KeyBoardToolBar.xib; sourceTree = "<group>"; };
+		691E88FF1E7837C40028AF69 /* KeyBoardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyBoardToolBar.m; path = KeyBoardToolBar/KeyBoardToolBar.m; sourceTree = "<group>"; };
+		691E89001E7837C40028AF69 /* KeyBoardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyBoardToolBar.h; path = KeyBoardToolBar/KeyBoardToolBar.h; sourceTree = "<group>"; };
 		69213ABA1E73449700FE61B0 /* row-reorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "row-reorder.png"; path = "resourse/row-reorder.png"; sourceTree = SOURCE_ROOT; };
 		6929CCCD1E5891FB0073ED11 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = UserProfile/ProfileViewController.h; sourceTree = "<group>"; };
 		6929CCCE1E5891FB0073ED11 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = UserProfile/ProfileViewController.m; sourceTree = "<group>"; };
@@ -65,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		691E88FD1E7837A80028AF69 /* KeyBoardToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				691E88FE1E7837C40028AF69 /* KeyBoardToolBar.xib */,
+				691E89001E7837C40028AF69 /* KeyBoardToolBar.h */,
+				691E88FF1E7837C40028AF69 /* KeyBoardToolBar.m */,
+			);
+			name = KeyBoardToolBar;
+			sourceTree = "<group>";
+		};
 		695739FF1E6B071300235637 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +112,7 @@
 		69C89FB41E53009800317983 /* ProjectBudget */ = {
 			isa = PBXGroup;
 			children = (
+				691E88FD1E7837A80028AF69 /* KeyBoardToolBar */,
 				695739FF1E6B071300235637 /* Models */,
 				69C89FD51E53550400317983 /* AnalyticModel */,
 				69C89FD41E5354F500317983 /* Settings */,
@@ -252,6 +268,7 @@
 				69C89FC51E53009800317983 /* Assets.xcassets in Resources */,
 				69213ABB1E73449700FE61B0 /* row-reorder.png in Resources */,
 				69C89FC01E53009800317983 /* Main.storyboard in Resources */,
+				691E89011E7837C40028AF69 /* KeyBoardToolBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +333,7 @@
 				69C89FD81E5355E700317983 /* startViewController.m in Sources */,
 				69C89FBA1E53009800317983 /* AppDelegate.m in Sources */,
 				69573A171E6D6FDF00235637 /* ProjectInfo.m in Sources */,
+				691E89021E7837C40028AF69 /* KeyBoardToolBar.m in Sources */,
 				69573A231E6D9F7200235637 /* Projects+CoreDataProperties.m in Sources */,
 				69C89FB71E53009800317983 /* main.m in Sources */,
 				6929CCCF1E5891FB0073ED11 /* ProfileViewController.m in Sources */,
